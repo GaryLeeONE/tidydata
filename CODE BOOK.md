@@ -4,8 +4,11 @@ CODE BOOK
 ## Processing the data
 
 Version information:
+
 System: macOS 10.13.4
+
 R: 3.5.1
+
 RStudio: 1.1.456
 
 **Note**: The sequence of steps described here is slightly different from the course project description on Coursera.
@@ -43,6 +46,7 @@ For detailed code behind each step, please refer to `run_analysis.R`
    6 - LAYING
 
 As described in the UCI HAR Dataset features vector info:
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
